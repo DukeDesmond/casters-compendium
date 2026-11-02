@@ -6,18 +6,9 @@ import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/test"
 	"fyne.io/fyne/v2/widget"
+
+	releasenotes "github.com/HybridUofA/casters-compendium/docs/releases"
 )
-
-func TestBuildMainMenuDisplaysApplicationVersion(t *testing.T) {
-	window := test.NewWindow(nil)
-	defer window.Close()
-
-	menu := buildMainMenu(window, mainMenuActions{})
-	want := "v" + applicationVersion
-	if !containsLabelText(menu, want) {
-		t.Fatalf("main menu does not display application version %q", want)
-	}
-}
 
 func TestBuildMainMenuDisplaysEnabledSimulatorPrototype(t *testing.T) {
 	window := test.NewWindow(nil)
@@ -38,75 +29,103 @@ func TestBuildMainMenuDisplaysSoloVsTsubasa(t *testing.T) {
 	defer window.Close()
 
 	menu := buildMainMenu(window, mainMenuActions{PlaySoloVsTsubasa: func() {}})
-	button := findButtonText(menu, "Solo vs Tsubasa")
+	button := findButtonText(menu, "Vs Tsubasa")
 	if button == nil {
-		t.Fatal("main menu does not display Solo vs Tsubasa")
+		t.Fatal("main menu does not display Vs Tsubasa")
 	}
 	if button.Disabled() {
-		t.Fatal("Solo vs Tsubasa is disabled despite having an action")
+		t.Fatal("Vs Tsubasa is disabled despite having an action")
 	}
 }
 
-func TestBuildMainMenuDisplaysOnlinePlayActions(t *testing.T) {
+func TestBuildMainMenuDisplaysOnlineAndDeckButtons(t *testing.T) {
 	window := test.NewWindow(nil)
 	defer window.Close()
 
-	menu := buildMainMenu(window, mainMenuActions{
-		OnlineLobby:    func() {},
-		HostOnlineGame: func() {},
-		JoinOnlineGame: func() {},
+	menu := buildMainMenu(window, mainMenuActions{})
+	for _, label := range []string{"Online", "Decks"} {
+		if findButtonText(menu, label) == nil {
+			t.Fatalf("main menu does not display the %q button", label)
+		}
+	}
+}
+
+func TestBuildMainMenuDisplaysUtilityButtons(t *testing.T) {
+	window := test.NewWindow(nil)
+	defer window.Close()
+
+	menu := buildMainMenu(window, mainMenuActions{})
+	for _, label := range []string{"Check for Updates", "How to Use", "Settings", "Quit"} {
+		if findButtonText(menu, label) == nil {
+			t.Fatalf("main menu does not display the %q button", label)
+		}
+	}
+}
+
+func TestOnlineMenuListsOnlinePlayActions(t *testing.T) {
+	var lobby, host, join bool
+	menu := newOnlineMenu(mainMenuActions{
+		OnlineLobby:    func() { lobby = true },
+		HostOnlineGame: func() { host = true },
+		JoinOnlineGame: func() { join = true },
 	})
-	lobby := findButtonText(menu, "Online Lobby")
-	host := findButtonText(menu, "Host Online Game")
-	join := findButtonText(menu, "Join Online Game")
-	if lobby == nil || host == nil || join == nil {
-		t.Fatal("main menu does not display Online Lobby / Host / Join actions")
+
+	for _, label := range []string{"Online Lobby", "Host Online Game", "Join Online Game"} {
+		item := findMenuItem(menu, label)
+		if item == nil {
+			t.Fatalf("online menu does not list %q", label)
+		}
+		item.Action()
 	}
-	if lobby.Disabled() || host.Disabled() || join.Disabled() {
-		t.Fatal("online play actions are disabled despite having handlers")
+	if !lobby || !host || !join {
+		t.Fatal("online menu items did not run their actions")
 	}
 }
 
-func TestBuildMainMenuDisplaysDirectDeckEditorAction(t *testing.T) {
-	window := test.NewWindow(nil)
-	defer window.Close()
+func TestDeckMenuListsDeckActions(t *testing.T) {
+	var editor bool
+	menu := newDeckMenu(mainMenuActions{OpenDeckEditor: func() { editor = true }})
 
-	menu := buildMainMenu(window, mainMenuActions{OpenDeckEditor: func() {}})
-	button := findButtonText(menu, "Open Deck Editor")
-	if button == nil {
-		t.Fatal("main menu does not display the direct deck-editor action")
+	for _, label := range []string{
+		"Open Deck Editor",
+		"Make a New Deck",
+		"Load a Deck",
+		"Generate Deck Image from Decklist",
+		"Generate Decklist File",
+	} {
+		if findMenuItem(menu, label) == nil {
+			t.Fatalf("deck menu does not list %q", label)
+		}
 	}
-	if button.Disabled() {
-		t.Fatal("direct deck-editor action is disabled")
+	findMenuItem(menu, "Open Deck Editor").Action()
+	if !editor {
+		t.Fatal("Open Deck Editor menu item did not run its action")
 	}
 }
 
 func TestBuildMainMenuDisplaysLocalChangelog(t *testing.T) {
+	notes, err := releasenotes.All()
+	if err != nil || len(notes) == 0 {
+		t.Fatalf("bundled release notes unavailable: %v", err)
+	}
+
 	window := test.NewWindow(nil)
 	defer window.Close()
 
-	menu := buildMainMenu(window, mainMenuActions{Changelog: func() {}})
-	button := findButtonText(menu, "Changelog")
-	if button == nil {
-		t.Fatal("main menu does not display the local changelog action")
-	}
-	if button.Disabled() {
-		t.Fatal("local changelog action is disabled despite having an action")
+	// The changelog is shown inline; its version picker starts on the newest release.
+	menu := buildMainMenu(window, mainMenuActions{})
+	if findButtonText(menu, notes[0].Version) == nil {
+		t.Fatalf("main menu does not display the changelog for %q", notes[0].Version)
 	}
 }
 
-func containsLabelText(object fyne.CanvasObject, text string) bool {
-	if label, ok := object.(*widget.Label); ok && label.Text == text {
-		return true
-	}
-	if container, ok := object.(*fyne.Container); ok {
-		for _, child := range container.Objects {
-			if containsLabelText(child, text) {
-				return true
-			}
+func findMenuItem(menu *fyne.Menu, label string) *fyne.MenuItem {
+	for _, item := range menu.Items {
+		if item.Label == label {
+			return item
 		}
 	}
-	return false
+	return nil
 }
 
 func findButtonText(object fyne.CanvasObject, text string) *widget.Button {
