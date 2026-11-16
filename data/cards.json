@@ -65,7 +65,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Chibi Art",
+   "Rarity": "Rare"
   }
  },
  {
@@ -154,7 +155,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Promotional",
+   "Rarity": "Rare"
   }
  },
  {
@@ -172,7 +174,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -228,7 +231,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -265,7 +269,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -350,11 +355,11 @@
   "subname": "Mariko Yumejiki",
   "type": "Caster",
   "element": "Void",
-  "cost_level": "2",
-  "ability": "• Rest, banish a \"Arthur\" from my Stock: Put the top two cards of your deck into an allied caster zone face down, as a Caster as Rest.",
-  "flavor": "Now that we know each other, let's talk.",
+  "cost_level": "1",
+  "ability": "•Target allied face down Caster gains \"Rest: Target allied {Void} servant gains +500 ATK until end of turn.\" this turn.",
+  "flavor": "Let's get to know each other better.",
   "artist": "JAIBON",
-  "card_number": "DD02-020",
+  "card_number": "EX01-ALT01",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Arthur-Super-Rare.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
@@ -397,10 +402,12 @@
   "flavor": "To love her is compulsory.",
   "artist": "Mad",
   "card_number": "EX01-036",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Ashmodae-Apparition-of-Temptation.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aes Pack",
    "Rarity": "Normal"
   }
  },
@@ -421,7 +428,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -475,10 +483,12 @@
   "flavor": "Trading in human suffering, she's procured immense wealth.",
   "artist": "keivin",
   "card_number": "EX01-032",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Bamanon-Source-of-Greed.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Luna Pack",
    "Rarity": "Normal"
   }
  },
@@ -499,7 +509,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -549,7 +560,7 @@
   "element": "Void",
   "traits": "[Madness]",
   "cost_level": "5",
-  "ability": "• Break (When this card is put into your hand from an orb zone, you may play it immediately without paying its cost.)\n\n• Put target servant into it's owner's caster zone face down, as a caster.",
+  "ability": "• Break (When this card is put into your hand from an orb zone, you may play it immediately without paying its cost.)\n\n• Put target servant into its owner's caster zone face down, as a caster.",
   "flavor": "\"I'm so happy.\"",
   "artist": "MATSUMOTO EIGHT",
   "card_number": "EX02-036",
@@ -557,7 +568,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -575,7 +587,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -589,10 +602,12 @@
   "flavor": "\"I'm so glad you're here.\"",
   "artist": "kawaryu",
   "card_number": "EX01-022",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Be-Mine.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aes Pack",
    "Rarity": "Normal"
   }
  },
@@ -651,7 +666,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -659,7 +675,7 @@
   "name": "Bloom Lady",
   "type": "Servant",
   "element": "Ignus",
-  "traits": "[Youkai]",
+  "traits": "[Youkai/Plant]",
   "cost_level": "2",
   "attack": "1000",
   "defense": "1000",
@@ -746,10 +762,12 @@
   "flavor": "An eraser that erases memories.",
   "artist": "uekino aroe",
   "card_number": "EX01-033",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Brain-Eraser.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aqua Pack",
    "Rarity": "Normal"
   }
  },
@@ -785,10 +803,12 @@
   "flavor": "\"Answer my call!\"",
   "artist": "kawaryu",
   "card_number": "EX01-019",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Call-Forth.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aqua Pack",
    "Rarity": "Normal"
   }
  },
@@ -836,7 +856,7 @@
    "235"
   ],
   "name": "Carella",
-  "subname": "Jyun Fujinmai",
+  "subname": "Jun Fujinmai",
   "type": "Caster",
   "element": "Ignus",
   "cost_level": "2",
@@ -848,7 +868,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -866,7 +887,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -952,10 +974,12 @@
   "flavor": "Three heads to eat thrice as much.",
   "artist": "uekino aroe",
   "card_number": "EX01-024",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Cerberoast.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into solis Pack",
    "Rarity": "Normal"
   }
  },
@@ -974,7 +998,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -992,7 +1017,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1010,7 +1036,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -1028,7 +1055,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1122,7 +1150,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -1140,7 +1169,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1173,10 +1203,12 @@
   "flavor": "Thank you for such a wonderful offer, but regrettably I will have to refuse it.",
   "artist": "AKI",
   "card_number": "EX01-006",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Civil-Attitude.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Terra pack",
    "Rarity": "Normal"
   }
  },
@@ -1212,7 +1244,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1249,7 +1282,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1381,7 +1415,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -1502,7 +1537,7 @@
   "type": "Caster",
   "element": "Aqua",
   "traits": "[Talent]",
-  "ability": "• If I am in an allied graveyard remove me from the game, discard a [Talent]: Search your deck for a [Tengu], reveal it, and put it into your hand. Shuffle your deck.",
+  "ability": "• If I am in an allied graveyard, remove me from the game, discard a [Talent]: Search your deck for a [Tengu], reveal it, and put it into your hand. Shuffle your deck.",
   "flavor": "\"Huh? Another error?\"",
   "artist": "Kamijo Roro",
   "card_number": "DD06-023",
@@ -1568,7 +1603,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -1605,7 +1641,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -1678,10 +1715,12 @@
   "flavor": "Fakes aren't too different from the real thing.",
   "artist": "Nanase Kokoa",
   "card_number": "EX01-026",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Diablos-the-Deciever.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Ignus Pack",
    "Rarity": "Normal"
   }
  },
@@ -1815,10 +1854,12 @@
   "flavor": "Geeze Honoka, you worry too much.",
   "artist": "sakura moyon",
   "card_number": "EX01-010",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Eli-Superior.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Terra pack",
    "Rarity": "Normal"
   }
  },
@@ -1893,10 +1934,12 @@
   "flavor": "\"Disappear!\"",
   "artist": "Shirono Muku",
   "card_number": "EX01-015",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Evaporation.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Solis Pack",
    "Rarity": "Normal"
   }
  },
@@ -1911,10 +1954,12 @@
   "flavor": "Welcome to Jyashin High School.",
   "artist": "Saiko Takaki",
   "card_number": "EX01-005",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Evil-Presence.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Void pack",
    "Rarity": "Normal"
   }
  },
@@ -1948,10 +1993,12 @@
   "flavor": "\"BAM!\"",
   "artist": "mie",
   "card_number": "EX01-017",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Exorcism.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Silva Pack",
    "Rarity": "Normal"
   }
  },
@@ -2044,10 +2091,12 @@
   "flavor": "I wonder... will anyone like me?",
   "artist": "Marui-no",
   "card_number": "EX01-013",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Faare-A-Popierre.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aes Pack",
    "Rarity": "Normal"
   }
  },
@@ -2281,7 +2330,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -2410,7 +2460,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -2469,7 +2520,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -2530,7 +2582,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -2548,7 +2601,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -2566,7 +2620,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -2586,7 +2641,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -2671,11 +2727,11 @@
   "subname": "Sakura Nishinotouin",
   "type": "Caster",
   "element": "Terra",
-  "cost_level": "2",
-  "ability": "• Rest, banish a \"Glory Butterfly\" from my Stock: Destroy target servant with a cost of 3 or less.\n• Rest: Target allied servant gains +1000 DEF until end of turn.",
-  "flavor": "Miss Tsubasa, today I'm going to teach you some manners.",
+  "cost_level": "1",
+  "ability": "• Rest: Target allied servant gains +500 DEF until end of turn.",
+  "flavor": "Miss Hanna, after school let's go to the greenhouse.",
   "artist": "Nekobayashi",
-  "card_number": "DD01-021",
+  "card_number": "EX01-ALT03",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Glory-Butterfly-Super-Rare.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
@@ -2773,7 +2829,7 @@
   "cost_level": "3",
   "attack": "4000",
   "defense": "1000",
-  "ability": "• Whenever I am attacked: That attacking player gains control of this card.",
+  "ability": "• When I am attacked: That attacking player gains control of this card. (The attack ends)",
   "flavor": "Wait, wait! I'm changing sides!",
   "artist": "Ryo Taniguchi",
   "card_number": "DD05-037",
@@ -3038,7 +3094,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Og art",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3118,7 +3175,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3138,7 +3196,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3167,7 +3226,7 @@
   "element": "Solis",
   "traits": "[Hunger/Talent]",
   "cost_level": "2",
-  "ability": "• United Front [Talent] (You may pay this card's elemental aether cost using aether of any element from [Talent] casters. If you do, increase its cost by 1 as you pay its cost.)\n• Reveal any number of cards from your hand. Discard all casters revealed and for each [Tengu] and/or [Heroic Spirit] revealed, search your deck for a caster and put it into an allied graveyard. Shuffle your deck.",
+  "ability": "• United Front [Talent] (You may pay this card's elemental aether cost using aether of any element from [Talent] casters. If you do, increase its cost by 1 as you pay its cost.)\n•Reveal and discard up to one [Talent] caster from your hand. Then, search your deck for up to one [Talent] caster and put it into your graveyard. Shuffle your deck.",
   "flavor": "NO! Those were for the students!",
   "artist": "Tokiwa",
   "card_number": "DD06-025",
@@ -3211,10 +3270,12 @@
   "flavor": "\"Rui, your luck is looking really awful this month!\"",
   "artist": "oyume",
   "card_number": "EX01-012",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Hilde-Willow.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aqua Pack",
    "Rarity": "Normal"
   }
  },
@@ -3252,7 +3313,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3290,7 +3352,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3341,10 +3404,12 @@
   "flavor": "\"This is no good, I'm getting angry.\"",
   "artist": "AKI",
   "card_number": "EX01-016",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Incite-Ferocity.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Ignus Pack",
    "Rarity": "Normal"
   }
  },
@@ -3363,7 +3428,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3440,7 +3506,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3475,10 +3542,12 @@
   "flavor": "An azure flame of jealousy.",
   "artist": "Takamura Haluki",
   "card_number": "EX01-034",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Jealous-Hera.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aqua Pack",
    "Rarity": "Normal"
   }
  },
@@ -3534,7 +3603,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3555,7 +3625,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3573,7 +3644,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3591,7 +3663,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3672,11 +3745,11 @@
   "subname": "Ichika Asaba",
   "type": "Caster",
   "element": "Silva",
-  "cost_level": "2",
-  "ability": "• Rest, banish a\"Kiberia Yosha\" from my Stock: Return target enemy servant with a cost of 4 or less to its owner's hand.\n• Rest: Target enemy servant gains -1000 ATK until end of turn.",
-  "flavor": "Izumi-chan smells good again today~?",
+  "cost_level": "1",
+  "ability": "• Rest: Target enemy servant gains -500 ATK until end of turn.",
+  "flavor": "Kaya, why are you always eating sweets?",
   "artist": "Matsurika Yoko",
-  "card_number": "DD03-019",
+  "card_number": "EX01-ALT04",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Kiberia-Yosha-Super-Rare.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
@@ -3734,10 +3807,12 @@
   "flavor": "Ancient masters of magic, grant me your eldritch knowledge.",
   "artist": "kawaryu",
   "card_number": "EX01-020",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Knowledge-From-Ancestors.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aqua Pack",
    "Rarity": "Normal"
   }
  },
@@ -3795,7 +3870,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3895,6 +3971,26 @@
   }
  },
  {
+  "id": "1349",
+  "name": "Lief",
+  "subname": "Hiyo Yotsuba",
+  "type": "Caster",
+  "element": "Silva",
+  "traits": "[Earnest/Swim Club]",
+  "cost_level": "1",
+  "ability": "• Break",
+  "flavor": "\"Let's enjoy our first day off in a while!\"",
+  "artist": "ainoosaru",
+  "card_number": "PR002-001",
+  "count": "1",
+  "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Lief-Swim-Club.png",
+  "expansion": "BGG Con Promo",
+  "is_playtesting": true,
+  "extra_fields": {
+   "Notes": ""
+  }
+ },
+ {
   "id": "227",
   "name": "Lilia Chocolate",
   "subname": "Mao Mizoguchi",
@@ -3909,7 +4005,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -3927,7 +4024,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -3941,10 +4039,12 @@
   "flavor": "We just broke 300,000 subscribers! Are we famous?",
   "artist": "sakura moyon",
   "card_number": "EX01-009",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Lily-Verde.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Silva Pack",
    "Rarity": "Normal"
   }
  },
@@ -4080,7 +4180,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -4098,7 +4199,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -4114,10 +4216,12 @@
   "flavor": "\"I'll corrupt those orbs for you.\"",
   "artist": "Miko Yamazaki",
   "card_number": "EX01-030",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Lucifell-Flawless-Beauty.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Terra pack",
    "Rarity": "Normal"
   }
  },
@@ -4153,7 +4257,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -4188,7 +4293,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -4347,7 +4453,7 @@
   "type": "Caster",
   "element": "Aqua",
   "cost_level": "1",
-  "ability": "• Enter: Search your deck for a [Supplies], reveal it and put it into your hand. Then shuffle your deck.",
+  "ability": "• Enter: Search your deck for a [Supplies] servant with a cost of 3 or less, reveal it and put it into your hand. Then shuffle your deck.",
   "flavor": "\"A mysterious new card? Really?\"",
   "artist": "Tachibana Komoro",
   "card_number": "DD05-026",
@@ -4429,10 +4535,12 @@
   "flavor": "Analysis complete. Arthur, your next orders?",
   "artist": "JAIBON",
   "card_number": "EX01-014",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Merlin.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the void pack",
    "Rarity": "Normal"
   }
  },
@@ -4472,7 +4580,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -4488,10 +4597,12 @@
   "flavor": "A lapse of memory. Or something far more sinister?",
   "artist": "Saiko Takaki",
   "card_number": "EX01-037",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Mi-go.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the void pack",
    "Rarity": "Normal"
   }
  },
@@ -4568,7 +4679,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -4586,7 +4698,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -4604,7 +4717,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -4728,10 +4842,12 @@
   "flavor": "Did reading grant you wicked knowledge? Or have you merely lost something dear?",
   "artist": "Saiko Takaki",
   "card_number": "EX01-039",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Necronomicon.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the void pack",
    "Rarity": "Normal"
   }
  },
@@ -4748,10 +4864,12 @@
   "flavor": "I serve you. The one who brings emptiness.",
   "artist": "Saiko Takaki",
   "card_number": "EX01-038",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Night-Gaunt.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the void pack",
    "Rarity": "Normal"
   }
  },
@@ -4829,10 +4947,12 @@
   "flavor": "Greed destroys the body.",
   "artist": "SO",
   "card_number": "EX01-031",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Ouroboros.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Luna Pack",
    "Rarity": "Normal"
   }
  },
@@ -4851,7 +4971,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -4865,10 +4986,12 @@
   "flavor": "Sometimes a different teamup is good.",
   "artist": "mie",
   "card_number": "EX01-021",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Partner-Change.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aes Pack",
    "Rarity": "Normal"
   }
  },
@@ -4928,7 +5051,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Promotional",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5067,11 +5191,11 @@
   "subname": "Tsubasa Koga",
   "type": "Caster",
   "element": "Ignus",
-  "cost_level": "2",
-  "ability": "• Banish a \"Passion Wing\" from my Stock: Destroy target enemy servant with a cost of 2 or less.\n• Rest: Target allied servant gains +1000 ATK until end of turn.",
-  "flavor": "Miss Sakura, I'm going to get serious!",
+  "cost_level": "1",
+  "ability": "• Rest: Target allied servant gains +500 ATK until end of turn.",
+  "flavor": "Miss Manami, thanks for always being so kind.",
   "artist": "sakura moyon",
-  "card_number": "DD01-002",
+  "card_number": "EX01-ALT05",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Passion-Wing-Super-Rare.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
@@ -5196,7 +5320,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Promotional",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5233,7 +5358,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5254,7 +5380,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -5272,7 +5399,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5288,10 +5416,12 @@
   "flavor": "It even slacks off on dying.",
   "artist": "Saiko Takaki",
   "card_number": "EX01-028",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Phoenix.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Silva Pack",
    "Rarity": "Normal"
   }
  },
@@ -5306,10 +5436,12 @@
   "flavor": "Knowing an enemy's movements is key to a successful raid.",
   "artist": "sasaki kounosuke",
   "card_number": "EX01-040",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Pillage.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Luna Pack",
    "Rarity": "Normal"
   }
  },
@@ -5366,7 +5498,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -5395,7 +5528,7 @@
   "element": "Terra",
   "traits": "[Pride]",
   "cost_level": "1",
-  "ability": "• Quickcast\n• [Universal](You may pay the TERRA aether of this card with any element except non-elemental aether.)\n• Remove target caster ability in the chase. If you paid {Terra} aether for this card, Draw a card.",
+  "ability": "• Quickcast\n• [Universal](You may pay the TERRA aether of this card with any element except non-elemental aether.)\n• Remove target lv1 caster ability in the chase. If you paid {Terra} aether for this card, Draw a card.",
   "flavor": "Abandoned.",
   "artist": "kawaryu",
   "card_number": "EX02-017",
@@ -5403,7 +5536,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -5436,10 +5570,12 @@
   "flavor": "There's no time to be distracted by beauty.",
   "artist": "Nakaba Higurashi",
   "card_number": "EX01-029",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Prideful-Peafowl.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Terra pack",
    "Rarity": "Normal"
   }
  },
@@ -5534,7 +5670,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -5570,10 +5707,12 @@
   "flavor": "The ultimate tank created by magical girls.",
   "artist": "Saiko Takaki",
   "card_number": "EX01-035",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Pumpkin-Chariot.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Aes Pack",
    "Rarity": "Normal"
   }
  },
@@ -5626,10 +5765,12 @@
   "flavor": "\"Sayuri! Natsume! We need some new outfits for our new single!\"",
   "artist": "Matsurika Yoko",
   "card_number": "EX01-011",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Rafina-Soa.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Luna Pack",
    "Rarity": "Normal"
   }
  },
@@ -5703,7 +5844,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -5721,7 +5863,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5739,7 +5882,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -5798,7 +5942,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6132,7 +6277,7 @@
   "flavor": "\"I feel like I can achieve something if I try.\"",
   "artist": "Yuzuki Kihiro",
   "card_number": "DD06-021",
-  "count": "2",
+  "count": "4",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sheer-Gray.png",
   "expansion": "DD06: Battle of the Bands",
   "is_playtesting": true,
@@ -6155,7 +6300,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6192,7 +6338,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -6206,10 +6353,12 @@
   "flavor": "\"Let's hurry to the sale!\"",
   "artist": "sasaki kounosuke",
   "card_number": "EX01-004",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Shopping-Plaza.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Luna Pack",
    "Rarity": "Normal"
   }
  },
@@ -6228,7 +6377,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6280,10 +6430,12 @@
   "flavor": "Ah~ I really don't feel like fighting~.",
   "artist": "sasaki kounosuke",
   "card_number": "EX01-003",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sophmore-Slump.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Silva Pack",
    "Rarity": "Normal"
   }
  },
@@ -6346,7 +6498,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6364,7 +6517,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6457,10 +6611,12 @@
   "flavor": "Return.",
   "artist": "sasaki kounosuke",
   "card_number": "EX01-018",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Summoning-Obstruction.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into the Terra pack",
    "Rarity": "Normal"
   }
  },
@@ -6477,10 +6633,12 @@
   "flavor": "Magic duels sure are exciting.",
   "artist": "tokiwa",
   "card_number": "EX01-025",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sun-Wukong.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Ignus Pack",
    "Rarity": "Normal"
   }
  },
@@ -6495,10 +6653,12 @@
   "flavor": "Bit by bit, the entire thing is cooked through.",
   "artist": "kawaryu",
   "card_number": "EX01-002",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sunbeam-Roasting.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Solis Pack",
    "Rarity": "Normal"
   }
  },
@@ -6513,10 +6673,12 @@
   "flavor": "\"Huh? Where's Rikocchi?\"",
   "artist": "Foo Midori",
   "card_number": "EX01-007",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sunny.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Solis Pack",
    "Rarity": "Normal"
   }
  },
@@ -6532,13 +6694,14 @@
   "cost_level": "2",
   "ability": "• Banish a \"Sunny\" from my Stock: Target enemy player discards a card. Play this ability only during main timing.\n• Rest: Put target servant with a cost of 3 or less that was discarded from an enemy hand this turn into an allied servant zone.",
   "flavor": "\"I won't forgive anyone who hurts Rikocchi.\"",
-  "artist": "Inomura Tomori",
+  "artist": "foo midori",
   "card_number": "EX02-003",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Sunny-lv2.png",
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6556,7 +6719,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -6610,7 +6774,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -6698,7 +6863,7 @@
   "flavor": "Any chore is more fun if we work together!",
   "artist": "Yuko Nagasaki",
   "card_number": "DD06-032",
-  "count": "4",
+  "count": "2",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Tengus-Harvest.png",
   "expansion": "DD06: Battle of the Bands",
   "is_playtesting": true,
@@ -6753,7 +6918,7 @@
   "cost_level": "4",
   "attack": "3000",
   "defense": "1000",
-  "ability": "• United Front [Idol]\n• DCT(5)(If there are 3 or more cards with [Earnest] in an allied graveyard, I gain the following ability.): Enter: Rest all enemy casters.\n• Break",
+  "ability": "• United Front [Idol]\n• DCT(5)(If there are 5 or more cards with [Earnest] in an allied graveyard, I gain the following ability.): Enter: Rest all enemy casters.\n• Break",
   "flavor": "Yay! Let's dance together!",
   "artist": "Yuzuki Kihiro",
   "card_number": "DD06-016",
@@ -6795,10 +6960,12 @@
   "flavor": "An avatar of revenge for all the birds that are killed on a certain day every year.",
   "artist": "Takumi Sugikawa",
   "card_number": "EX01-023",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Toxic-Turkey.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into solis Pack",
    "Rarity": "Normal"
   }
  },
@@ -6819,7 +6986,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "Alt art",
+   "Rarity": "Rare"
   }
  },
  {
@@ -6829,7 +6997,7 @@
   "type": "Caster",
   "element": "Solis",
   "cost_level": "1",
-  "ability": "• Rest: Draw a card if an allied spell or ability destroyed an enemy servant this turn.",
+  "ability": "• Rest: Draw a card if an allied conjure or ability destroyed an enemy servant this turn.",
   "flavor": "\"Will you try a candy, Ichika?\"",
   "artist": "Ru-en Rouga",
   "card_number": "DD05-005",
@@ -6883,7 +7051,7 @@
    "251"
   ],
   "name": "Twinkle Charm",
-  "subname": "Momoka Michizuki",
+  "subname": "Momoka Mochizuki",
   "type": "Caster",
   "element": "Luna",
   "cost_level": "2",
@@ -6895,7 +7063,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -6913,7 +7082,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  },
  {
@@ -6929,10 +7099,12 @@
   "flavor": "If only it wasn't so fickle...",
   "artist": "Saiko Takaki",
   "card_number": "EX01-027",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Unreliable-Monk.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Silva Pack",
    "Rarity": "Normal"
   }
  },
@@ -6947,10 +7119,12 @@
   "flavor": "For Miwa-sama, I would do anything.",
   "artist": "BANAMONS*",
   "card_number": "EX01-008",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Vega-Scarlet-Star.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Ignus Pack",
    "Rarity": "Normal"
   }
  },
@@ -6971,7 +7145,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -7089,7 +7264,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -7103,10 +7279,12 @@
   "flavor": "Searching for those who live in blind rage.",
   "artist": "MATSUMOTO EIGHT",
   "card_number": "EX01-001",
+  "count": "1",
   "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/World-of-Rage.png",
   "expansion": "EX01: The Bell Tolls",
   "is_playtesting": false,
   "extra_fields": {
+   "Notes": "Goes into Ignus Pack",
    "Rarity": "Normal"
   }
  },
@@ -7148,7 +7326,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": ""
+   "Notes": "",
+   "Rarity": ""
   }
  },
  {
@@ -7185,7 +7364,8 @@
   "expansion": "EX02: Gifted Program",
   "is_playtesting": false,
   "extra_fields": {
-   "Notes": "Rare"
+   "Notes": "",
+   "Rarity": "Rare"
   }
  }
 ]
