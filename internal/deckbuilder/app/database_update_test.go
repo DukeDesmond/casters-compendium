@@ -1,15 +1,47 @@
 package deckbuilder
 
 import (
+	"context"
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	cards "github.com/HybridUofA/casters-compendium/internal/carddata/catalog"
+	"github.com/HybridUofA/casters-compendium/internal/carddata/distribution"
 	cardimages "github.com/HybridUofA/casters-compendium/internal/carddata/images"
 	"github.com/HybridUofA/casters-compendium/internal/sources/speedrobo"
 )
+
+func TestUpdateApplicationDataPreferredReportsBothFailures(t *testing.T) {
+	restore := hostedCatalogClientFactory
+	hostedCatalogClientFactory = func() (distribution.Client, error) {
+		return distribution.Client{}, fmt.Errorf("hosted offline")
+	}
+	t.Cleanup(func() { hostedCatalogClientFactory = restore })
+
+	ctx, cancel := context.WithCancel(context.Background())
+	cancel()
+
+	_, err := updateApplicationDataPreferred(
+		ctx,
+		newApplicationPaths(t.TempDir()),
+		nil,
+		nil,
+		nil,
+	)
+	if err == nil {
+		t.Fatal("expected combined hosted and source failure")
+	}
+	if !strings.Contains(err.Error(), "hosted catalog failed") {
+		t.Fatalf("error = %v, want hosted catalog failed", err)
+	}
+	if !strings.Contains(err.Error(), "source fallback failed") {
+		t.Fatalf("error = %v, want source fallback failed", err)
+	}
+}
 
 func TestBundledRawAndNormalizedCardListsHaveMatchingUpdateHashes(t *testing.T) {
 	repository, err := cards.LoadFile("../../../data/cards.json")

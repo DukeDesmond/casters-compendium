@@ -447,6 +447,114 @@ func updateApplicationDataFromHosted(
 	return updatedRepository, nil
 }
 
+// updateApplicationDataPreferred installs the hosted catalog when available, then
+// falls back to the GitHub snapshot and publisher API the same way first-run setup does.
+func updateApplicationDataPreferred(
+	ctx context.Context,
+	paths applicationPaths,
+	currentRepository *cards.Repository,
+	release *distribution.ReleaseManifest,
+	progress setupProgress,
+) (*cards.Repository, error) {
+	updatedRepository, hostedErr := updateApplicationDataFromHosted(
+		ctx,
+		paths,
+		currentRepository,
+		release,
+		progress,
+	)
+	if hostedErr == nil {
+		return updatedRepository, nil
+	}
+	log.Printf(
+		"hosted card database update failed: %v; trying GitHub and publisher source",
+		hostedErr,
+	)
+	if progress != nil {
+		progress(
+			"Hosted catalog unavailable; trying GitHub and the publisher source…",
+			0,
+			1,
+		)
+	}
+	updatedRepository, sourceErr := updateApplicationDataFromSource(
+		ctx,
+		paths,
+		currentRepository,
+		progress,
+	)
+	if sourceErr == nil {
+		return updatedRepository, nil
+	}
+	return nil, fmt.Errorf(
+		"hosted catalog failed (%v); source fallback failed: %w",
+		hostedErr,
+		sourceErr,
+	)
+}
+
+// updateApplicationDataFromSource installs the current GitHub cards.json when it
+// matches the live publisher card list, otherwise rebuilds from Speedrobo.
+func updateApplicationDataFromSource(
+	ctx context.Context,
+	paths applicationPaths,
+	currentRepository *cards.Repository,
+	progress setupProgress,
+) (*cards.Repository, error) {
+	remote, err := fetchRemoteCardList(ctx, progress)
+	if err != nil {
+		return nil, err
+	}
+
+	githubRepository, githubErr := downloadGitHubCardDatabase(
+		ctx,
+		remote.client,
+		githubCardDatabaseURL,
+		progress,
+	)
+	if githubErr == nil {
+		githubHash, hashErr := hashRepositoryCardList(githubRepository)
+		if hashErr == nil && githubHash == remote.hash {
+			if err := invalidateChangedCardImages(
+				paths,
+				currentRepository,
+				githubRepository,
+			); err != nil {
+				return nil, err
+			}
+			if err := cacheCardImagesUsing(
+				ctx,
+				paths,
+				githubRepository,
+				githubCardImageURL,
+				progress,
+			); err != nil {
+				return nil, err
+			}
+			if err := writeCardDatabase(paths.CardDatabase, githubRepository); err != nil {
+				return nil, err
+			}
+			if err := writeCardListHash(paths.CardListHash, remote.hash); err != nil {
+				return nil, err
+			}
+			if err := os.WriteFile(paths.SetupComplete, []byte("complete\n"), 0o644); err != nil {
+				return nil, fmt.Errorf("write setup marker: %w", err)
+			}
+			return githubRepository, nil
+		}
+		if hashErr != nil {
+			githubErr = hashErr
+		} else {
+			githubErr = fmt.Errorf("GitHub card database snapshot is not current")
+		}
+	}
+	log.Printf("GitHub card database update skipped: %v", githubErr)
+	if progress != nil {
+		progress("GitHub snapshot is not current; rebuilding card data…", 0, 1)
+	}
+	return updateApplicationData(ctx, paths, currentRepository, remote, progress)
+}
+
 // checkForCardDatabaseUpdate compares the complete installed database digest to
 // the maintainer-approved hosted release and prompts only after validation.
 func checkForCardDatabaseUpdate(
@@ -512,7 +620,7 @@ func confirmManualCardDatabaseUpdate(
 ) {
 	dialog.ShowConfirm(
 		"Update Card Database",
-		"Download and install the latest published card database? Existing deck files will not be changed.",
+		"Download and install the latest published card database? If the hosted catalog is unavailable, the app will try GitHub and the publisher source. Existing deck files will not be changed.",
 		func(update bool) {
 			if update {
 				runCardDatabaseUpdate(window, paths, repository, nil)
@@ -540,7 +648,7 @@ func runCardDatabaseUpdate(
 	))
 
 	go func() {
-		updatedRepository, err := updateApplicationDataFromHosted(
+		updatedRepository, err := updateApplicationDataPreferred(
 			context.Background(),
 			paths,
 			currentRepository,
