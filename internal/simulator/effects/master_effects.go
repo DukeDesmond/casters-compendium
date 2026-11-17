@@ -1414,6 +1414,13 @@ var MasterEffects = []EffectDecl{
 		Resolve: resolveProduceAnyAether1,
 	},
 	{
+		CardID:  "1349",
+		Name:    "Lief Swim Club",
+		Hook:    HookNone,
+		Summary: "[Caster] • Break",
+		Resolve: resolveNoop,
+	},
+	{
 		CardID:  "1187",
 		Name:    "Lilia Chocolate",
 		Hook:    HookRest,

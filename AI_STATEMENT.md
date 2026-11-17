@@ -354,3 +354,13 @@ ship as **v1.2.5**.
 Under that authorization, Cursor assistance implemented the update check,
 window-geometry helpers, layout minimum fixes, tests, transparency updates,
 and release metadata under maintainer review.
+
+## Disclosed v1.2.6 assistance
+
+Hybrid directed the card-database update fallback (hosted catalog first, then
+GitHub snapshot when current, then publisher API rebuild) and the hosted
+catalog v7 refresh, and remains responsible for acceptance and publication.
+
+Under that authorization, Cursor assistance implemented the fallback install
+path, tests, catalog refresh publication, transparency updates, and release
+metadata under maintainer review.
