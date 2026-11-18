@@ -82,28 +82,27 @@ func TestOnlineMenuListsOnlinePlayActions(t *testing.T) {
 	}
 }
 
-func TestDeckMenuListsDeckActions(t *testing.T) {
-	var editor bool
-	menu := newDeckMenu(mainMenuActions{OpenDeckEditor: func() { editor = true }})
+func TestDecksButtonOpensDeckEditor(t *testing.T) {
+	window := test.NewWindow(nil)
+	defer window.Close()
 
-	for _, label := range []string{
-		"Open Deck Editor",
-		"Make a New Deck",
-		"Load a Deck",
-		"Generate Deck Image from Decklist",
-		"Generate Decklist File",
-	} {
-		if findMenuItem(menu, label) == nil {
-			t.Fatalf("deck menu does not list %q", label)
-		}
+	opened := false
+	menu := buildMainMenu(window, mainMenuActions{OpenDeckEditor: func() { opened = true }})
+	button := findButtonText(menu, "Decks")
+	if button == nil {
+		t.Fatal("main menu does not display the Decks button")
 	}
-	findMenuItem(menu, "Open Deck Editor").Action()
-	if !editor {
-		t.Fatal("Open Deck Editor menu item did not run its action")
+	if button.Disabled() {
+		t.Fatal("Decks button is disabled despite having an action")
+	}
+
+	test.Tap(button)
+	if !opened {
+		t.Fatal("Decks button did not open the deck editor")
 	}
 }
 
-func TestBuildMainMenuDisplaysLocalChangelog(t *testing.T) {
+func TestSidebarShowsChangelogAndDiagnostics(t *testing.T) {
 	notes, err := releasenotes.All()
 	if err != nil || len(notes) == 0 {
 		t.Fatalf("bundled release notes unavailable: %v", err)
@@ -111,11 +110,28 @@ func TestBuildMainMenuDisplaysLocalChangelog(t *testing.T) {
 
 	window := test.NewWindow(nil)
 	defer window.Close()
+	window.Resize(fyne.NewSize(900, 700))
 
-	// The changelog is shown inline; its version picker starts on the newest release.
-	menu := buildMainMenu(window, mainMenuActions{})
-	if findButtonText(menu, notes[0].Version) == nil {
-		t.Fatalf("main menu does not display the changelog for %q", notes[0].Version)
+	menu := buildMainMenu(window, mainMenuActions{DiagnosticsText: "diagnostic sample"})
+
+	// The sidebar only exists once the burger (the only button without a label) is tapped.
+	burger := findButtonText(menu, "")
+	if burger == nil {
+		t.Fatal("main menu does not display the sidebar button")
+	}
+	test.Tap(burger)
+
+	popup, ok := window.Canvas().Overlays().Top().(*widget.PopUp)
+	if !ok {
+		t.Fatal("tapping the sidebar button did not open the sidebar")
+	}
+
+	// The changelog's version picker starts on the newest release.
+	if findButtonText(popup.Content, notes[0].Version) == nil {
+		t.Fatalf("sidebar does not display the changelog for %q", notes[0].Version)
+	}
+	if findButtonText(popup.Content, "Copy to Clipboard") == nil {
+		t.Fatal("sidebar does not offer Copy to Clipboard")
 	}
 }
 

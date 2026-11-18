@@ -70,17 +70,6 @@ func (l percentSidePadLayout) MinSize(objects []fyne.CanvasObject) fyne.Size {
 	return fyne.NewSize(w, h)
 }
 
-// newDeckMenu lists the deck actions shown when the Decks button is pressed.
-func newDeckMenu(actions mainMenuActions) *fyne.Menu {
-	return fyne.NewMenu("",
-		fyne.NewMenuItem("Open Deck Editor", actions.OpenDeckEditor),
-		fyne.NewMenuItem("Make a New Deck", actions.NewDeck),
-		fyne.NewMenuItem("Load a Deck", actions.LoadDeck),
-		fyne.NewMenuItem("Generate Deck Image from Decklist", actions.GenerateImage),
-		fyne.NewMenuItem("Generate Decklist File", actions.GenerateDecklist),
-	)
-}
-
 // newOnlineMenu lists the online actions shown when the Online button is pressed.
 func newOnlineMenu(actions mainMenuActions) *fyne.Menu {
 	return fyne.NewMenu("",
@@ -106,14 +95,10 @@ func buildMainMenu(window fyne.Window, actions mainMenuActions) fyne.CanvasObjec
 	if actions.PlaySoloVsTsubasa == nil {
 		soloButton.Disable()
 	}
-	deckMenu := newDeckMenu(actions)
-
-	var deckButton *widget.Button
-	deckButton = widget.NewButton("Decks", func() {
-		pos := fyne.CurrentApp().Driver().AbsolutePositionForObject(deckButton)
-		pos.X += deckButton.Size().Width + 10 // open to the right of the button
-		widget.ShowPopUpMenuAtPosition(deckMenu, window.Canvas(), pos)
-	})
+	deckButton := widget.NewButton("Decks", actions.OpenDeckEditor)
+	if actions.OpenDeckEditor == nil {
+		deckButton.Disable()
+	}
 
 	onlineMenu := newOnlineMenu(actions)
 
@@ -126,23 +111,30 @@ func buildMainMenu(window fyne.Window, actions mainMenuActions) fyne.CanvasObjec
 
 	var sidebar *widget.PopUp
 
+	changelog := buildChangelogPanel(fyne.NewSize(340, 120), window.Canvas())
+
 	diagText := widget.NewLabel(actions.DiagnosticsText)
 	diagText.Wrapping = fyne.TextWrapWord
 
 	sidebar = widget.NewPopUp(container.NewBorder(
-		widget.NewLabelWithStyle("Diagnostic Information", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
-		widget.NewButton("Copy to Clipboard", func() {
-			fyne.CurrentApp().Clipboard().SetContent(actions.DiagnosticsText)
-		}),
+		nil,
+		container.NewVBox(
+			widget.NewSeparator(),
+			widget.NewLabelWithStyle("Diagnostic Information", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
+			diagText,
+			widget.NewButton("Copy to Clipboard", func() {
+				fyne.CurrentApp().Clipboard().SetContent(actions.DiagnosticsText)
+			}),
+		),
 		nil,
 		nil,
-		container.NewVScroll(diagText),
+		changelog,
 	), window.Canvas())
 
 	var burger *widget.Button
 	burger = widget.NewButtonWithIcon("", theme.MenuIcon(), func() {
 		size := window.Canvas().Size()
-		width := float32(340)
+		width := float32(380)
 		sidebar.Resize(fyne.NewSize(width, size.Height))
 		sidebar.ShowAtPosition(fyne.NewPos(size.Width, 0)) // start just off the right edge
 
@@ -156,8 +148,6 @@ func buildMainMenu(window fyne.Window, actions mainMenuActions) fyne.CanvasObjec
 
 	menu := container.NewHBox(
 		container.NewVBox(
-			description,
-			widget.NewSeparator(),
 			onlineButton,
 			playButton,
 			soloButton,
@@ -177,18 +167,20 @@ func buildMainMenu(window fyne.Window, actions mainMenuActions) fyne.CanvasObjec
 	title := canvas.NewImageFromResource(fyne.NewStaticResource("title.png", assets.TitlePNG))
 	title.FillMode = canvas.ImageFillContain
 	title.SetMinSize(fyne.NewSize(360, 280))
-	if background != backgroundNone {
-		title.Hide()
-	}
 
-	changelog := buildChangelogPanel(fyne.NewSize(360, 120), window.Canvas())
-	leftColumn := container.NewBorder(
-		title, nil, nil, nil,
-		container.NewHBox(layout.NewSpacer(), changelog, layout.NewSpacer()),
+	header := container.NewHBox(layout.NewSpacer(), container.NewVBox(burger))
+
+	centeredMenu := container.NewVBox(
+		container.NewHBox(
+			layout.NewSpacer(),
+			container.NewVBox(
+				container.NewCenter(title),
+				container.NewCenter(menu),
+			),
+			layout.NewSpacer(),
+		),
 	)
 
-	header := container.NewHBox(leftColumn, layout.NewSpacer(), container.NewVBox(burger))
-	centeredMenu := container.NewVBox(container.NewHBox(layout.NewSpacer(), menu, layout.NewSpacer()))
 	row := container.NewStack(centeredMenu, header)
 
 	if background == backgroundNone {
