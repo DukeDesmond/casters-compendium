@@ -70,7 +70,9 @@ You can also drag a search result directly into either deck area.
   left, search stays on the right, and the deck area receives remaining space.
   Constrained details and filter content scroll within their panels.
 - **Update Card Database** checks the publisher-authorized hosted catalog and
-  installs a cryptographically verified card database and artwork.
+  installs a cryptographically verified card database and artwork. If that
+  catalog is unreachable, it falls back to the GitHub data/cards.json
+  snapshot when current, then rebuilds from the publisher API.
 - Saved decks using a historical card ID are migrated to the current printing
   when opened. Save the deck to retain the updated identifiers.
 - **Diagnostic Information** displays a reviewable support summary that can be

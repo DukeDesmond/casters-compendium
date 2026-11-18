@@ -258,6 +258,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Chibi Art"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -587,6 +591,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Promotional"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -656,6 +664,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -859,6 +871,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -993,6 +1009,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -1314,7 +1334,7 @@
    },
    {
     "field_label": "Cost/Lv",
-    "value": "2"
+    "value": "1"
    },
    {
     "field_label": "ATK",
@@ -1326,11 +1346,11 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Rest, banish a \"Arthur\" from my Stock: Put the top two cards of your deck into an allied caster zone face down, as a Caster as Rest."
+    "value": "•Target allied face down Caster gains \"Rest: Target allied {Void} servant gains +500 ATK until end of turn.\" this turn."
    },
    {
     "field_label": "Flavor",
-    "value": "Now that we know each other, let's talk."
+    "value": "Let's get to know each other better."
    },
    {
     "field_label": "Artist",
@@ -1338,7 +1358,7 @@
    },
    {
     "field_label": "Card Number",
-    "value": "DD02-020"
+    "value": "EX01-ALT01"
    },
    {
     "field_label": "Rarity",
@@ -1485,6 +1505,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aes Pack"
    }
   ],
   "is_favorite": false
@@ -1553,6 +1581,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -1753,6 +1785,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Luna Pack"
    }
   ],
   "is_favorite": false
@@ -1821,6 +1861,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -2008,7 +2052,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Break (When this card is put into your hand from an orb zone, you may play it immediately without paying its cost.)\n\n• Put target servant into it's owner's caster zone face down, as a caster."
+    "value": "• Break (When this card is put into your hand from an orb zone, you may play it immediately without paying its cost.)\n\n• Put target servant into its owner's caster zone face down, as a caster."
    },
    {
     "field_label": "Flavor",
@@ -2028,6 +2072,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -2097,6 +2145,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -2163,6 +2215,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aes Pack"
    }
   ],
   "is_favorite": false
@@ -2366,6 +2426,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -2398,7 +2462,7 @@
    },
    {
     "field_label": "Traits",
-    "value": "[Youkai]"
+    "value": "[Youkai/Plant]"
    },
    {
     "field_label": "Cost/Lv",
@@ -2703,6 +2767,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aqua Pack"
    }
   ],
   "is_favorite": false
@@ -2837,6 +2909,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aqua Pack"
    }
   ],
   "is_favorite": false
@@ -2995,7 +3075,7 @@
    },
    {
     "field_label": "Subname",
-    "value": "Jyun Fujinmai"
+    "value": "Jun Fujinmai"
    },
    {
     "field_label": "Type",
@@ -3043,6 +3123,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -3112,6 +3196,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -3393,6 +3481,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into solis Pack"
    }
   ],
   "is_favorite": false
@@ -3462,6 +3558,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -3530,6 +3630,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -3600,6 +3704,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -3668,6 +3776,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -4006,6 +4118,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -4074,6 +4190,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -4213,6 +4333,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Terra pack"
    }
   ],
   "is_favorite": false
@@ -4346,6 +4474,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -4484,6 +4616,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -4952,6 +5088,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -5410,7 +5550,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• If I am in an allied graveyard remove me from the game, discard a [Talent]: Search your deck for a [Tengu], reveal it, and put it into your hand. Shuffle your deck."
+    "value": "• If I am in an allied graveyard, remove me from the game, discard a [Talent]: Search your deck for a [Tengu], reveal it, and put it into your hand. Shuffle your deck."
    },
    {
     "field_label": "Flavor",
@@ -5638,6 +5778,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -5775,6 +5919,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -6056,6 +6204,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Ignus Pack"
    }
   ],
   "is_favorite": false
@@ -6531,6 +6687,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Terra pack"
    }
   ],
   "is_favorite": false
@@ -6807,6 +6971,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Solis Pack"
    }
   ],
   "is_favorite": false
@@ -6872,6 +7044,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Void pack"
    }
   ],
   "is_favorite": false
@@ -7006,6 +7186,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Silva Pack"
    }
   ],
   "is_favorite": false
@@ -7339,6 +7527,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aes Pack"
    }
   ],
   "is_favorite": false
@@ -8174,6 +8370,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -8650,6 +8850,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -8848,6 +9052,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -9056,6 +9264,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -9124,6 +9336,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -9193,6 +9409,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -9262,6 +9482,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -9583,7 +9807,7 @@
    },
    {
     "field_label": "Cost/Lv",
-    "value": "2"
+    "value": "1"
    },
    {
     "field_label": "ATK",
@@ -9595,11 +9819,11 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Rest, banish a \"Glory Butterfly\" from my Stock: Destroy target servant with a cost of 3 or less.\n• Rest: Target allied servant gains +1000 DEF until end of turn."
+    "value": "• Rest: Target allied servant gains +500 DEF until end of turn."
    },
    {
     "field_label": "Flavor",
-    "value": "Miss Tsubasa, today I'm going to teach you some manners."
+    "value": "Miss Hanna, after school let's go to the greenhouse."
    },
    {
     "field_label": "Artist",
@@ -9607,7 +9831,7 @@
    },
    {
     "field_label": "Card Number",
-    "value": "DD01-021"
+    "value": "EX01-ALT03"
    },
    {
     "field_label": "Rarity",
@@ -9944,7 +10168,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Whenever I am attacked: That attacking player gains control of this card."
+    "value": "• When I am attacked: That attacking player gains control of this card. (The attack ends)"
    },
    {
     "field_label": "Flavor",
@@ -10849,6 +11073,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Og art"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -11117,6 +11345,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -11186,6 +11418,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -11300,7 +11536,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• United Front [Talent] (You may pay this card's elemental aether cost using aether of any element from [Talent] casters. If you do, increase its cost by 1 as you pay its cost.)\n• Reveal any number of cards from your hand. Discard all casters revealed and for each [Tengu] and/or [Heroic Spirit] revealed, search your deck for a caster and put it into an allied graveyard. Shuffle your deck."
+    "value": "• United Front [Talent] (You may pay this card's elemental aether cost using aether of any element from [Talent] casters. If you do, increase its cost by 1 as you pay its cost.)\n•Reveal and discard up to one [Talent] caster from your hand. Then, search your deck for up to one [Talent] caster and put it into your graveyard. Shuffle your deck."
    },
    {
     "field_label": "Flavor",
@@ -11455,6 +11691,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aqua Pack"
    }
   ],
   "is_favorite": false
@@ -11597,6 +11841,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -11730,6 +11978,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -11930,6 +12182,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Ignus Pack"
    }
   ],
   "is_favorite": false
@@ -11998,6 +12258,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -12270,6 +12534,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -12401,6 +12669,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aqua Pack"
    }
   ],
   "is_favorite": false
@@ -12604,6 +12880,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -12673,6 +12953,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -12741,6 +13025,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -12810,6 +13098,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -13123,7 +13415,7 @@
    },
    {
     "field_label": "Cost/Lv",
-    "value": "2"
+    "value": "1"
    },
    {
     "field_label": "ATK",
@@ -13135,11 +13427,11 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Rest, banish a\"Kiberia Yosha\" from my Stock: Return target enemy servant with a cost of 4 or less to its owner's hand.\n• Rest: Target enemy servant gains -1000 ATK until end of turn."
+    "value": "• Rest: Target enemy servant gains -500 ATK until end of turn."
    },
    {
     "field_label": "Flavor",
-    "value": "Izumi-chan smells good again today~?"
+    "value": "Kaya, why are you always eating sweets?"
    },
    {
     "field_label": "Artist",
@@ -13147,7 +13439,7 @@
    },
    {
     "field_label": "Card Number",
-    "value": "DD03-019"
+    "value": "EX01-ALT04"
    },
    {
     "field_label": "Rarity",
@@ -13363,6 +13655,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aqua Pack"
    }
   ],
   "is_favorite": false
@@ -13569,6 +13869,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -13920,6 +14224,75 @@
   "is_favorite": false
  },
  {
+  "id": "1349",
+  "expansion_id": "47",
+  "card_key": "Lief Swim Club",
+  "image_url": "https://speedrobogames.com/wp-content/uploads/speedrobo-cards/Lief-Swim-Club.png",
+  "created_at": "2026-10-25 21:18:20",
+  "expansion_name": "BGG Con Promo",
+  "game_id": "1",
+  "is_playtesting": "1",
+  "fields": [
+   {
+    "field_label": "Name",
+    "value": "Lief"
+   },
+   {
+    "field_label": "Subname",
+    "value": "Hiyo Yotsuba"
+   },
+   {
+    "field_label": "Type",
+    "value": "Caster"
+   },
+   {
+    "field_label": "Element",
+    "value": "Silva"
+   },
+   {
+    "field_label": "Traits",
+    "value": "[Earnest/Swim Club]"
+   },
+   {
+    "field_label": "Cost/Lv",
+    "value": "1"
+   },
+   {
+    "field_label": "ATK",
+    "value": ""
+   },
+   {
+    "field_label": "DEF",
+    "value": ""
+   },
+   {
+    "field_label": "Ability",
+    "value": "• Break"
+   },
+   {
+    "field_label": "Flavor",
+    "value": "\"Let's enjoy our first day off in a while!\""
+   },
+   {
+    "field_label": "Artist",
+    "value": "ainoosaru"
+   },
+   {
+    "field_label": "Card Number",
+    "value": "PR002-001"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": ""
+   }
+  ],
+  "is_favorite": false
+ },
+ {
   "id": "227",
   "expansion_id": "8",
   "card_key": "Lilia Chocolate",
@@ -13983,6 +14356,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -14052,6 +14429,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -14118,6 +14499,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Silva Pack"
    }
   ],
   "is_favorite": false
@@ -14601,6 +14990,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -14669,6 +15062,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -14735,6 +15132,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Terra pack"
    }
   ],
   "is_favorite": false
@@ -14868,6 +15273,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -15002,6 +15411,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -15599,7 +16012,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Enter: Search your deck for a [Supplies], reveal it and put it into your hand. Then shuffle your deck."
+    "value": "• Enter: Search your deck for a [Supplies] servant with a cost of 3 or less, reveal it and put it into your hand. Then shuffle your deck."
    },
    {
     "field_label": "Flavor",
@@ -15888,6 +16301,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the void pack"
    }
   ],
   "is_favorite": false
@@ -16030,6 +16451,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -16095,6 +16520,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the void pack"
    }
   ],
   "is_favorite": false
@@ -16367,6 +16800,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -16435,6 +16872,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -16504,6 +16945,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -16984,6 +17429,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the void pack"
    }
   ],
   "is_favorite": false
@@ -17049,6 +17502,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the void pack"
    }
   ],
   "is_favorite": false
@@ -17321,6 +17782,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Luna Pack"
    }
   ],
   "is_favorite": false
@@ -17390,6 +17859,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -17455,6 +17928,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aes Pack"
    }
   ],
   "is_favorite": false
@@ -17661,6 +18142,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Promotional"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -18185,7 +18670,7 @@
    },
    {
     "field_label": "Cost/Lv",
-    "value": "2"
+    "value": "1"
    },
    {
     "field_label": "ATK",
@@ -18197,11 +18682,11 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Banish a \"Passion Wing\" from my Stock: Destroy target enemy servant with a cost of 2 or less.\n• Rest: Target allied servant gains +1000 ATK until end of turn."
+    "value": "• Rest: Target allied servant gains +500 ATK until end of turn."
    },
    {
     "field_label": "Flavor",
-    "value": "Miss Sakura, I'm going to get serious!"
+    "value": "Miss Manami, thanks for always being so kind."
    },
    {
     "field_label": "Artist",
@@ -18209,7 +18694,7 @@
    },
    {
     "field_label": "Card Number",
-    "value": "DD01-002"
+    "value": "EX01-ALT05"
    },
    {
     "field_label": "Rarity",
@@ -18623,6 +19108,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Promotional"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -18761,6 +19250,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -18831,6 +19324,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -18899,6 +19396,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -18965,6 +19466,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Silva Pack"
    }
   ],
   "is_favorite": false
@@ -19030,6 +19539,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Luna Pack"
    }
   ],
   "is_favorite": false
@@ -19233,6 +19750,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -19350,7 +19871,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Quickcast\n• [Universal](You may pay the TERRA aether of this card with any element except non-elemental aether.)\n• Remove target caster ability in the chase. If you paid {Terra} aether for this card, Draw a card."
+    "value": "• Quickcast\n• [Universal](You may pay the TERRA aether of this card with any element except non-elemental aether.)\n• Remove target lv1 caster ability in the chase. If you paid {Terra} aether for this card, Draw a card."
    },
    {
     "field_label": "Flavor",
@@ -19370,6 +19891,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -19501,6 +20026,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Terra pack"
    }
   ],
   "is_favorite": false
@@ -19846,6 +20379,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -19980,6 +20517,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Aes Pack"
    }
   ],
   "is_favorite": false
@@ -20183,6 +20728,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Luna Pack"
    }
   ],
   "is_favorite": false
@@ -20451,6 +21004,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -20519,6 +21076,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -20588,6 +21149,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -20791,6 +21356,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -22025,7 +22594,7 @@
    },
    {
     "field_label": "Count",
-    "value": "2"
+    "value": "4"
    },
    {
     "field_label": "Notes",
@@ -22098,6 +22667,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -22236,6 +22809,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -22302,6 +22879,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Luna Pack"
    }
   ],
   "is_favorite": false
@@ -22370,6 +22955,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -22570,6 +23159,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Silva Pack"
    }
   ],
   "is_favorite": false
@@ -22777,6 +23374,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -22845,6 +23446,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -23179,6 +23784,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into the Terra pack"
    }
   ],
   "is_favorite": false
@@ -23244,6 +23857,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Ignus Pack"
    }
   ],
   "is_favorite": false
@@ -23309,6 +23930,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Solis Pack"
    }
   ],
   "is_favorite": false
@@ -23374,6 +24003,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Solis Pack"
    }
   ],
   "is_favorite": false
@@ -23430,7 +24067,7 @@
    },
    {
     "field_label": "Artist",
-    "value": "Inomura Tomori"
+    "value": "foo midori"
    },
    {
     "field_label": "Card Number",
@@ -23442,6 +24079,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -23511,6 +24152,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -23718,6 +24363,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -24051,7 +24700,7 @@
    },
    {
     "field_label": "Count",
-    "value": "4"
+    "value": "2"
    },
    {
     "field_label": "Notes",
@@ -24242,7 +24891,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• United Front [Idol]\n• DCT(5)(If there are 3 or more cards with [Earnest] in an allied graveyard, I gain the following ability.): Enter: Rest all enemy casters.\n• Break"
+    "value": "• United Front [Idol]\n• DCT(5)(If there are 5 or more cards with [Earnest] in an allied graveyard, I gain the following ability.): Enter: Rest all enemy casters.\n• Break"
    },
    {
     "field_label": "Flavor",
@@ -24393,6 +25042,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into solis Pack"
    }
   ],
   "is_favorite": false
@@ -24461,6 +25118,10 @@
    },
    {
     "field_label": "Notes",
+    "value": "Alt art"
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -24510,7 +25171,7 @@
    },
    {
     "field_label": "Ability",
-    "value": "• Rest: Draw a card if an allied spell or ability destroyed an enemy servant this turn."
+    "value": "• Rest: Draw a card if an allied conjure or ability destroyed an enemy servant this turn."
    },
    {
     "field_label": "Flavor",
@@ -24685,7 +25346,7 @@
    },
    {
     "field_label": "Subname",
-    "value": "Momoka Michizuki"
+    "value": "Momoka Mochizuki"
    },
    {
     "field_label": "Type",
@@ -24733,6 +25394,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -24802,6 +25467,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],
@@ -24868,6 +25537,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Silva Pack"
    }
   ],
   "is_favorite": false
@@ -24933,6 +25610,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Ignus Pack"
    }
   ],
   "is_favorite": false
@@ -25001,6 +25686,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": ""
    }
   ],
@@ -25408,6 +26097,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -25473,6 +26166,14 @@
    {
     "field_label": "Rarity",
     "value": "Normal"
+   },
+   {
+    "field_label": "Count",
+    "value": "1"
+   },
+   {
+    "field_label": "Notes",
+    "value": "Goes into Ignus Pack"
    }
   ],
   "is_favorite": false
@@ -25611,6 +26312,10 @@
    {
     "field_label": "Notes",
     "value": ""
+   },
+   {
+    "field_label": "Rarity",
+    "value": ""
    }
   ],
   "is_favorite": false
@@ -25748,6 +26453,10 @@
    },
    {
     "field_label": "Notes",
+    "value": ""
+   },
+   {
+    "field_label": "Rarity",
     "value": "Rare"
    }
   ],

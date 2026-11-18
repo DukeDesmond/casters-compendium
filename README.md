@@ -34,8 +34,9 @@ Aether adjust plus Hubris click-to-attack work, v1.1.2's Arena-style
 priority auto-pass plus Hilde Willow Rest automation, v1.2.0's effect
 automation plus Solo vs Tsubasa, v1.2.1's board UX and match-end polish, v1.2.2's
 Break privacy and discard targeting UX, v1.2.3's Instant Rest, Stock
-banish, Battle attack-clear, and Save As / TTS identity fix, and v1.2.5's
-update discovery plus Windows maximize / mouse-desync fix.
+banish, Battle attack-clear, and Save As / TTS identity fix, v1.2.5's
+update discovery plus Windows maximize / mouse-desync fix, and v1.2.6's
+card-database update fallback when the hosted catalog is unreachable.
 
 ## Features
 
@@ -90,6 +91,14 @@ update discovery plus Windows maximize / mouse-desync fix.
   (`.pkg.tar.zst`).
 
 ## Roadmap
+
+### What's new in v1.2.6
+
+- **Update Card Database** falls back to the GitHub card snapshot, then the
+  publisher API, when the hosted catalog is unreachable.
+- Clients install hosted catalog **v7** (refreshed publisher records) through
+  the normal update path.
+- Go toolchain bumped to 1.26.11 for current standard-library fixes.
 
 ### What's new in v1.2.5
 
@@ -436,13 +445,13 @@ created.
 Debian and Ubuntu users can install the native package with:
 
 ```sh
-sudo apt install ./casters-compendium_1.2.5_amd64.deb
+sudo apt install ./casters-compendium_1.2.6_amd64.deb
 ```
 
 Arch Linux users can install the native package with:
 
 ```sh
-sudo pacman -U casters-compendium-1.2.5-1-x86_64.pkg.tar.zst
+sudo pacman -U casters-compendium-1.2.6-1-x86_64.pkg.tar.zst
 ```
 
 ## Known limitations
