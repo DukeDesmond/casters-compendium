@@ -119,18 +119,19 @@ func TestSidebarShowsChangelogAndDiagnostics(t *testing.T) {
 	if burger == nil {
 		t.Fatal("main menu does not display the sidebar button")
 	}
-	test.Tap(burger)
 
-	popup, ok := window.Canvas().Overlays().Top().(*widget.PopUp)
-	if !ok {
+	burger.OnTapped()
+
+	top := window.Canvas().Overlays().Top()
+	if top == nil {
 		t.Fatal("tapping the sidebar button did not open the sidebar")
 	}
 
 	// The changelog's version picker starts on the newest release.
-	if findButtonText(popup.Content, notes[0].Version) == nil {
+	if findButtonDeep(top, notes[0].Version) == nil {
 		t.Fatalf("sidebar does not display the changelog for %q", notes[0].Version)
 	}
-	if findButtonText(popup.Content, "Copy to Clipboard") == nil {
+	if findButtonDeep(top, "Copy to Clipboard") == nil {
 		t.Fatal("sidebar does not offer Copy to Clipboard")
 	}
 }
@@ -153,6 +154,26 @@ func findButtonText(object fyne.CanvasObject, text string) *widget.Button {
 			if button := findButtonText(child, text); button != nil {
 				return button
 			}
+		}
+	}
+	return nil
+}
+
+// findButtonDeep searches containers and widget internals for a button with the given text.
+func findButtonDeep(object fyne.CanvasObject, text string) *widget.Button {
+	if button, ok := object.(*widget.Button); ok && button.Text == text {
+		return button
+	}
+	var children []fyne.CanvasObject
+	switch typed := object.(type) {
+	case *fyne.Container:
+		children = typed.Objects
+	case fyne.Widget:
+		children = test.WidgetRenderer(typed).Objects()
+	}
+	for _, child := range children {
+		if button := findButtonDeep(child, text); button != nil {
+			return button
 		}
 	}
 	return nil
